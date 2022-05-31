@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Regcss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+    <header class="container">
+        <div class="header__content">
+            <a href="find" class="header_logo">MovieSite</a>
+            <!-- <a href="mainpage" class="header_logo2">Trends</a>
+            <a href="2page" class="header_logo2">Online Cinema</a>
+            <a href="account" class="header_logoT">Account</a>
+            <a href="read" class="header_logoT">Read</a> -->
+            <a href="find" class="header_logoT2">Find</a>
+            <a href="update" class="header_logoT">Update</a>
+            <a href="delete" class="header_logoT">Delete</a>
+          
+        </div>
+    </header>
+<main>
+    <div class="container">
+        <div class="col-md-7 col-lg-8">
+            <!-- <h4 class="mb-3">Find certain user</h4> -->
+            <form action="user/email" class="needs-validation" novalidate method="get">
+                <h1 title="Logging">Найти</h1>
+<!--                <form action="/asd?_method=DELETE" class="needs-validation" novalidate method="post">-->
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="text" class="form-control" name="email" id="email" placeholder="" value="" required>
+                        <!-- <div class="invalid-feedback">
+                            Valid email is required.
+                        </div> -->
+                    </div>
+
+                </div>
+
+                <hr class="my-4">
+
+                <button class="w-100 btn btn-primary btn-lg" type="submit">Find</button>
+            </form>
+        </div>
+    </div>
+</main>
+
+
+
+</body>
+</html>
